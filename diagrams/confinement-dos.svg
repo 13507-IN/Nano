@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="590" viewBox="0 0 1120 590" role="img" aria-labelledby="title desc">
+  <title id="title">Quantum confinement and density of states</title>
+  <desc id="desc">The top row compares bulk, quantum well, quantum wire, and quantum dot confinement. The lower row shows qualitative density of states for three, two, one, and zero dimensions.</desc>
+  <rect width="1120" height="590" fill="#fbfcfe"/>
+  <text x="36" y="42" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#14243a">Confinement changes the spectrum — and the DOS</text>
+  <text x="36" y="68" font-family="Arial,sans-serif" font-size="14" fill="#53647a">Confined directions are quantized; motion along unconfined directions remains continuous.</text>
+  <rect x="28" y="88" width="1064" height="188" rx="14" fill="#ffffff" stroke="#d9e2ee"/>
+  <g font-family="Arial,sans-serif" fill="#14243a" text-anchor="middle">
+    <text x="160" y="119" font-size="17" font-weight="700">3D bulk</text>
+    <text x="421" y="119" font-size="17" font-weight="700">2D well / sheet</text>
+    <text x="682" y="119" font-size="17" font-weight="700">1D wire</text>
+    <text x="943" y="119" font-size="17" font-weight="700">0D dot</text>
+    <text x="160" y="255" font-size="13" fill="#53647a">0 confined · 3 free</text>
+    <text x="421" y="255" font-size="13" fill="#53647a">1 confined · 2 free</text>
+    <text x="682" y="255" font-size="13" fill="#53647a">2 confined · 1 free</text>
+    <text x="943" y="255" font-size="13" fill="#53647a">3 confined · 0 free</text>
+  </g>
+  <g stroke="#92a5ba" stroke-width="2" fill="none">
+    <path d="M105 151l35-18 39 18-36 20z M105 151v40l38 22v-42 M182 151v41l-39 21"/>
+    <path d="M366 162h104v13H366z M366 194h104v13H366z"/>
+    <path d="M637 170h90v20h-90z M642 174h80" stroke="#17827a" stroke-width="5"/>
+    <circle cx="943" cy="180" r="28" fill="#e6f2f7" stroke="#246b8f" stroke-width="3"/>
+  </g>
+  <g stroke="#d7e0eb" stroke-dasharray="4 5">
+    <path d="M291 100v160 M552 100v160 M813 100v160"/>
+  </g>
+  <text x="36" y="316" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#14243a">Qualitative DOS versus energy</text>
+  <text x="36" y="339" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Each curve begins at a band/subband edge; shapes are schematic and not to a common scale.</text>
+  <g stroke="#9aaabd" stroke-width="1.5" fill="none">
+    <path d="M76 535V370H286"/>
+    <path d="M336 535V370H546"/>
+    <path d="M596 535V370H806"/>
+    <path d="M856 535V370H1066"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="14" fill="#53647a">
+    <text x="77" y="362">DOS</text><text x="263" y="555">E</text>
+    <text x="337" y="362">DOS</text><text x="523" y="555">E</text>
+    <text x="597" y="362">DOS</text><text x="783" y="555">E</text>
+    <text x="857" y="362">DOS</text><text x="1043" y="555">E</text>
+    <text x="90" y="390" fill="#c05849" font-weight="700">3D: ∝ √(E − E₀)</text>
+    <text x="350" y="390" fill="#17827a" font-weight="700">2D: steps</text>
+    <text x="610" y="390" fill="#4267a9" font-weight="700">1D: edge peaks</text>
+    <text x="870" y="390" fill="#8b5ca6" font-weight="700">0D: discrete lines</text>
+  </g>
+  <path d="M105 535 C145 529 176 510 204 485 C231 461 251 440 276 426" fill="none" stroke="#c05849" stroke-width="4"/>
+  <path d="M365 535H402V493H440V461H478V429H520" fill="none" stroke="#17827a" stroke-width="4"/>
+  <path d="M625 535 C630 535 632 508 636 454 C640 405 646 405 650 454 C654 508 656 535 662 535 C668 535 670 508 674 454 C678 405 684 405 688 454 C692 508 694 535 700 535 C706 535 708 508 712 454 C716 405 722 405 726 454 C730 508 732 535 738 535 C744 535 746 508 750 454 C754 405 760 405 764 454 C768 508 770 535 777 535" fill="none" stroke="#4267a9" stroke-width="3"/>
+  <g stroke="#8b5ca6" stroke-width="4">
+    <path d="M895 535V460 M938 535V425 M981 535V475 M1024 535V405"/>
+  </g>
+  <text x="36" y="578" font-family="Arial,sans-serif" font-size="12" fill="#66778d">At a fixed carrier density, dimensionality changes how many states are available near the Fermi level.</text>
+</svg>

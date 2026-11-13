@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Carbon nanotubes, graphene bands, and a 2D semiconductor FET</title>
+  <desc id="desc">A graphene honeycomb sheet is rolled into a carbon nanotube. A Dirac cone illustrates graphene's gapless bands. A layered 2D semiconductor FET shows gate, dielectric, monolayer channel, and source/drain contacts.</desc>
+  <rect width="1120" height="560" fill="#fbfcfe"/>
+  <text x="34" y="42" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#14243a">Carbon and 2D materials: geometry sets electronic structure</text>
+  <rect x="28" y="66" width="400" height="456" rx="14" fill="#fff" stroke="#d9e2ee"/>
+  <rect x="448" y="66" width="290" height="456" rx="14" fill="#fff" stroke="#d9e2ee"/>
+  <rect x="758" y="66" width="334" height="456" rx="14" fill="#fff" stroke="#d9e2ee"/>
+  <g font-family="Arial,sans-serif" fill="#14243a">
+    <text x="52" y="101" font-size="18" font-weight="700">A. Graphene → CNT</text>
+    <text x="472" y="101" font-size="18" font-weight="700">B. Graphene bands</text>
+    <text x="782" y="101" font-size="18" font-weight="700">C. 2D semiconductor FET</text>
+  </g>
+  <text x="52" y="127" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Wrapping vector C<tspan baseline-shift="sub">h</tspan> sets tube diameter and chirality.</text>
+  <g stroke="#7fa7c7" stroke-width="2" fill="#eaf2f8">
+    <path d="M76 196l28-20 28 20-28 20z M132 196l28-20 28 20-28 20z M188 196l28-20 28 20-28 20z
+             M104 216l28-20 28 20-28 20z M160 216l28-20 28 20-28 20z M216 216l28-20 28 20-28 20z
+             M76 236l28-20 28 20-28 20z M132 236l28-20 28 20-28 20z M188 236l28-20 28 20-28 20z"/>
+  </g>
+  <path d="M85 164C145 142 221 145 276 175" fill="none" stroke="#c05849" stroke-width="3" marker-end="url(#arrow-red)"/>
+  <text x="143" y="158" font-family="Arial,sans-serif" font-size="12" fill="#c05849">C<tspan baseline-shift="sub">h</tspan> = n a<tspan baseline-shift="sub">1</tspan> + m a<tspan baseline-shift="sub">2</tspan></text>
+  <g fill="#e9f3f7" stroke="#246b8f" stroke-width="3">
+    <ellipse cx="327" cy="212" rx="39" ry="64"/>
+    <ellipse cx="327" cy="212" rx="39" ry="64" fill="none"/>
+  </g>
+  <path d="M288 212H366 M288 226H366" stroke="#17827a" stroke-width="3" stroke-dasharray="5 4"/>
+  <text x="303" y="292" font-family="Arial,sans-serif" font-size="12" fill="#53647a">rolled tube</text>
+  <text x="52" y="340" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#14243a">Chirality controls the gap</text>
+  <text x="52" y="366" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Allowed k-lines sample graphene’s bands.</text>
+  <text x="52" y="389" font-family="Arial,sans-serif" font-size="13" fill="#53647a">A line through K → ideal metallic tube;</text>
+  <text x="52" y="412" font-family="Arial,sans-serif" font-size="13" fill="#53647a">otherwise a semiconducting gap opens.</text>
+  <text x="52" y="470" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#17827a">Semiconducting CNT: E<tspan baseline-shift="sub">g</tspan> ∝ 1/d</text>
+  <text x="52" y="492" font-family="Arial,sans-serif" font-size="12" fill="#53647a">Smaller diameter → larger bandgap (first-order trend).</text>
+  <g stroke="#53647a" stroke-width="2" fill="none">
+    <path d="M485 425V156 M485 425H705"/>
+    <path d="M535 274L594 206L652 139 M535 274L594 342L652 410" stroke="#4267a9" stroke-width="4"/>
+  </g>
+  <circle cx="594" cy="274" r="7" fill="#c05849"/>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a">
+    <text x="470" y="164">E</text><text x="694" y="447">k</text>
+    <text x="574" y="296" fill="#c05849">K</text>
+    <text x="481" y="473">Bands touch: no intrinsic gap</text>
+    <text x="481" y="495">E ≈ ±ℏv<tspan baseline-shift="sub">F</tspan>|q| near K</text>
+  </g>
+  <g stroke="#53647a" stroke-width="2">
+    <rect x="796" y="408" width="258" height="28" fill="#d28b35"/>
+    <rect x="796" y="384" width="258" height="24" fill="#f1d8a6" stroke="none"/>
+    <rect x="840" y="316" width="170" height="68" rx="8" fill="#d6ece8"/>
+    <rect x="796" y="282" width="86" height="34" fill="#7fa7c7"/>
+    <rect x="968" y="282" width="86" height="34" fill="#7fa7c7"/>
+    <rect x="820" y="457" width="210" height="28" fill="#d8e3ed"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a" text-anchor="middle">
+    <text x="839" y="304">Source</text><text x="1011" y="304">Drain</text>
+    <text x="925" y="354" fill="#17827a">2D semiconductor</text>
+    <text x="925" y="402">gate dielectric</text>
+    <text x="925" y="429">gate</text>
+    <text x="925" y="477">substrate / back gate</text>
+  </g>
+  <text x="782" y="170" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Atomically thin channel</text>
+  <text x="782" y="193" font-family="Arial,sans-serif" font-size="13" fill="#53647a">→ strong gate control.</text>
+  <text x="782" y="224" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Finite bandgap can aid</text>
+  <text x="782" y="247" font-family="Arial,sans-serif" font-size="13" fill="#53647a">switching; contacts often</text>
+  <text x="782" y="270" font-family="Arial,sans-serif" font-size="13" fill="#53647a">limit practical current.</text>
+  <defs>
+    <marker id="arrow-red" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#c05849"/>
+    </marker>
+  </defs>
+</svg>

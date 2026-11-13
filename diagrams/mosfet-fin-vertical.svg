@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="510" viewBox="0 0 1120 510" role="img" aria-labelledby="title desc">
+  <title id="title">Planar MOSFET, FinFET, and vertical MOSFET comparison</title>
+  <desc id="desc">Three device cross-sections show a planar gate above a channel, a gate controlling three sides of a fin, and a gate surrounding a vertical channel.</desc>
+  <rect width="1120" height="510" fill="#fbfcfe"/>
+  <text x="34" y="42" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#14243a">MOSFET geometry evolves to improve gate control</text>
+  <text x="34" y="68" font-family="Arial,sans-serif" font-size="14" fill="#53647a">Conceptual cross-sections only; exact terminal placement varies by process and architecture.</text>
+  <g>
+    <rect x="28" y="92" width="340" height="320" rx="14" fill="#fff" stroke="#d9e2ee"/>
+    <rect x="390" y="92" width="340" height="320" rx="14" fill="#fff" stroke="#d9e2ee"/>
+    <rect x="752" y="92" width="340" height="320" rx="14" fill="#fff" stroke="#d9e2ee"/>
+  </g>
+  <g font-family="Arial,sans-serif" fill="#14243a" text-anchor="middle">
+    <text x="198" y="126" font-size="18" font-weight="700">Planar MOSFET</text>
+    <text x="560" y="126" font-size="18" font-weight="700">FinFET (tri-gate)</text>
+    <text x="922" y="126" font-size="18" font-weight="700">Vertical MOSFET</text>
+  </g>
+  <g stroke="#53647a" stroke-width="2">
+    <rect x="73" y="292" width="250" height="55" rx="5" fill="#d8e3ed"/>
+    <rect x="112" y="260" width="70" height="32" fill="#7fa7c7"/>
+    <rect x="214" y="260" width="70" height="32" fill="#7fa7c7"/>
+    <rect x="153" y="214" width="90" height="18" fill="#d28b35"/>
+    <rect x="153" y="232" width="90" height="8" fill="#f1d8a6" stroke="none"/>
+    <rect x="153" y="240" width="90" height="20" fill="#73b8b0"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a" text-anchor="middle">
+    <text x="147" y="282">Source</text><text x="249" y="282">Drain</text>
+    <text x="198" y="207">Gate</text><text x="198" y="326">channel</text>
+    <text x="198" y="381">Gate acts mainly from above</text>
+  </g>
+  <g stroke="#53647a" stroke-width="2">
+    <rect x="435" y="292" width="250" height="55" rx="5" fill="#d8e3ed"/>
+    <rect x="535" y="208" width="50" height="100" fill="#73b8b0"/>
+    <path d="M515 208V297Q515 310 528 310H592Q605 310 605 297V208" fill="none" stroke="#d28b35" stroke-width="14"/>
+    <rect x="525" y="188" width="70" height="20" fill="#f1d8a6" stroke="none"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a" text-anchor="middle">
+    <text x="560" y="326">channel in fin</text>
+    <text x="560" y="381">Gate controls top + two sidewalls</text>
+  </g>
+  <g stroke="#53647a" stroke-width="2">
+    <rect x="797" y="292" width="250" height="55" rx="5" fill="#d8e3ed"/>
+    <rect x="872" y="158" width="100" height="150" rx="15" fill="#73b8b0"/>
+    <rect x="887" y="175" width="70" height="42" fill="#7fa7c7"/>
+    <rect x="887" y="260" width="70" height="36" fill="#7fa7c7"/>
+    <rect x="858" y="215" width="128" height="37" rx="12" fill="#d28b35"/>
+    <rect x="866" y="219" width="112" height="29" rx="9" fill="#f1d8a6" stroke="none"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a" text-anchor="middle">
+    <text x="922" y="190">Source</text><text x="922" y="284">Drain</text>
+    <text x="922" y="239">gate surrounds channel</text>
+    <text x="922" y="381">Current path is mainly vertical</text>
+  </g>
+  <rect x="48" y="432" width="1024" height="52" rx="10" fill="#eef4f8"/>
+  <text x="68" y="454" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#14243a">Scaling payoff</text>
+  <text x="190" y="454" font-family="Arial,sans-serif" font-size="14" fill="#53647a">More gate surfaces improve electrostatic control → less short-channel leakage/DIBL.</text>
+  <text x="190" y="475" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Trade-offs: fabrication complexity, parasitics, contacts, variability, and self-heating.</text>
+</svg>

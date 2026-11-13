@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440" role="img" aria-labelledby="title desc">
+  <title id="title">Atomistic NEGF–Poisson simulation workflow</title>
+  <desc id="desc">A flow diagram from atomic geometry and a Hamiltonian through contacts, Green's functions, transmission, charge and current, then a self-consistent Poisson update loop.</desc>
+  <rect width="1120" height="440" fill="#fbfcfe"/>
+  <text x="34" y="42" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#14243a">Atomistic quantum transport: NEGF–Poisson loop</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="46" y="112" width="220" height="96" rx="14" fill="#eaf2f8" stroke="#7fa7c7" stroke-width="2"/>
+    <text x="156" y="148" font-size="16" font-weight="700" fill="#14243a">1. Structure + model</text>
+    <text x="156" y="174" font-size="13" fill="#53647a">atoms, geometry, H</text>
+    <rect x="322" y="112" width="220" height="96" rx="14" fill="#eef4f8" stroke="#7fa7c7" stroke-width="2"/>
+    <text x="432" y="148" font-size="16" font-weight="700" fill="#14243a">2. Open boundaries</text>
+    <text x="432" y="174" font-size="13" fill="#53647a">source/drain Σ<tspan baseline-shift="sub">S</tspan>, Σ<tspan baseline-shift="sub">D</tspan></text>
+    <rect x="598" y="112" width="220" height="96" rx="14" fill="#e8f4f2" stroke="#17827a" stroke-width="2"/>
+    <text x="708" y="148" font-size="16" font-weight="700" fill="#14243a">3. Quantum transport</text>
+    <text x="708" y="174" font-size="13" fill="#53647a">G<tspan baseline-shift="super">r</tspan>, Γ, T(E)</text>
+    <rect x="874" y="112" width="200" height="96" rx="14" fill="#fff3e3" stroke="#d28b35" stroke-width="2"/>
+    <text x="974" y="148" font-size="16" font-weight="700" fill="#14243a">4. Observables</text>
+    <text x="974" y="174" font-size="13" fill="#53647a">charge n(r), current I</text>
+  </g>
+  <g stroke="#53647a" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <path d="M266 160H314"/>
+    <path d="M542 160H590"/>
+    <path d="M818 160H866"/>
+  </g>
+  <rect x="376" y="280" width="368" height="92" rx="14" fill="#f1edf7" stroke="#8b5ca6" stroke-width="2"/>
+  <text x="560" y="316" font-family="Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#14243a">5. Poisson electrostatics</text>
+  <text x="560" y="343" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#53647a">update potential φ(r) from charge, then rebuild/update H</text>
+  <g stroke="#8b5ca6" stroke-width="2.5" fill="none" marker-end="url(#arrow-purple)">
+    <path d="M974 208V258H744"/>
+  </g>
+  <g stroke="#8b5ca6" stroke-width="2.5" fill="none" marker-end="url(#arrow-purple)">
+    <path d="M376 326H156V218"/>
+  </g>
+  <text x="186" y="310" font-family="Arial,sans-serif" font-size="13" fill="#8b5ca6">self-consistency iteration</text>
+  <text x="46" y="412" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Repeat until charge, potential, and current converge; add scattering models when ballistic transport is insufficient.</text>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#53647a"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#8b5ca6"/>
+    </marker>
+  </defs>
+</svg>

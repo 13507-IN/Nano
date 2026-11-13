@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="600" viewBox="0 0 1120 600" role="img" aria-labelledby="title desc">
+  <title id="title">Resonant tunneling diode and single-electron transistor</title>
+  <desc id="desc">The upper left shows a double-barrier quantum well with a resonant level and an RTD current-voltage curve with negative differential resistance. The right shows an SET circuit and periodic gate-controlled conductance peaks.</desc>
+  <rect width="1120" height="600" fill="#fbfcfe"/>
+  <text x="34" y="42" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#14243a">Two signatures of quantum transport</text>
+  <rect x="28" y="66" width="522" height="500" rx="14" fill="#fff" stroke="#d9e2ee"/>
+  <rect x="570" y="66" width="522" height="500" rx="14" fill="#fff" stroke="#d9e2ee"/>
+  <text x="54" y="100" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#14243a">A. Resonant tunneling diode</text>
+  <text x="596" y="100" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#14243a">B. Single-electron transistor</text>
+  <text x="54" y="126" font-family="Arial,sans-serif" font-size="13" fill="#53647a">At resonance, emitter states align with a quasi-bound well level.</text>
+  <g stroke="#53647a" stroke-width="2" fill="none">
+    <path d="M78 268V150 M78 268H508"/>
+    <path d="M100 250H174V177H214V250H314V177H354V250H462"/>
+    <path d="M100 205H173 M215 205H313 M355 205H462" stroke="#c05849" stroke-width="4"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a">
+    <text x="59" y="158">E</text><text x="496" y="286">x</text>
+    <text x="114" y="272">emitter</text><text x="232" y="272">well</text><text x="379" y="272">collector</text>
+    <text x="223" y="198" fill="#c05849">quasi-bound level</text>
+    <text x="178" y="166">barrier</text><text x="316" y="166">barrier</text>
+  </g>
+  <path d="M325 196L365 181" stroke="#c05849" stroke-width="1.5"/>
+  <text x="54" y="322" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#14243a">I–V characteristic</text>
+  <g stroke="#53647a" stroke-width="2" fill="none">
+    <path d="M82 505V350 M82 505H508"/>
+    <path d="M102 490 C145 475 166 428 205 397 C238 370 264 389 290 430 C320 478 353 481 392 445 C430 410 460 386 495 375" stroke="#4267a9" stroke-width="4"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a">
+    <text x="62" y="360">I</text><text x="498" y="524">V</text>
+    <text x="196" y="388" fill="#17827a" font-weight="700">peak</text>
+    <text x="309" y="460" fill="#c05849" font-weight="700">NDR: dI/dV &lt; 0</text>
+  </g>
+  <path d="M221 391L211 400" stroke="#17827a" stroke-width="1.5"/>
+  <path d="M353 452L332 449" stroke="#c05849" stroke-width="1.5"/>
+  <text x="596" y="126" font-family="Arial,sans-serif" font-size="13" fill="#53647a">Two tunnel junctions isolate a small island; a gate shifts its charge state.</text>
+  <g stroke="#53647a" stroke-width="3" fill="none">
+    <path d="M620 218H694 M746 218H841 M893 218H1040"/>
+    <path d="M694 198V238 M705 198V238 M841 198V238 M852 198V238"/>
+    <path d="M770 218V304"/>
+    <path d="M744 304H796 M744 316H796"/>
+  </g>
+  <rect x="746" y="190" width="96" height="56" rx="10" fill="#e8f4f2" stroke="#17827a" stroke-width="2"/>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a" text-anchor="middle">
+    <text x="655" y="202">S</text><text x="935" y="202">D</text>
+    <text x="794" y="222" font-size="13" font-weight="700" fill="#14243a">island</text>
+    <text x="700" y="260">tunnel junction</text><text x="847" y="260">tunnel junction</text>
+    <text x="770" y="341">gate</text>
+  </g>
+  <text x="596" y="378" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#14243a">Gate sweep: periodic Coulomb peaks</text>
+  <g stroke="#53647a" stroke-width="2" fill="none">
+    <path d="M620 520V398 M620 520H1042"/>
+  </g>
+  <path d="M640 514 C650 512 652 505 656 474 C660 430 668 430 672 474 C676 505 679 512 692 514
+           C704 512 706 505 710 474 C714 430 722 430 726 474 C730 505 733 512 746 514
+           C758 512 760 505 764 474 C768 430 776 430 780 474 C784 505 787 512 800 514
+           C812 512 814 505 818 474 C822 430 830 430 834 474 C838 505 841 512 854 514
+           C866 512 868 505 872 474 C876 430 884 430 888 474 C892 505 895 512 908 514
+           C920 512 922 505 926 474 C930 430 938 430 942 474 C946 505 949 512 962 514
+           C974 512 976 505 980 474 C984 430 992 430 996 474 C1000 505 1003 512 1020 514"
+        fill="none" stroke="#4267a9" stroke-width="4"/>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#53647a">
+    <text x="602" y="406">G</text><text x="1030" y="540">V<tspan baseline-shift="sub">g</tspan></text>
+    <text x="670" y="443" fill="#17827a">charge degeneracy</text>
+    <text x="780" y="559">blockade regions between peaks</text>
+  </g>
+  <path d="M727 449L720 456" stroke="#17827a" stroke-width="1.5"/>
+</svg>
